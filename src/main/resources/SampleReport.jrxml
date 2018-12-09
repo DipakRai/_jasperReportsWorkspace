@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.6.0.final using JasperReports Library version 6.6.0  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="SampleReport" pageWidth="595" pageHeight="842" whenNoDataType="BlankPage" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="038b20ef-43f5-4f05-8318-627e403a7110">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="JavaBeanDataAdapterV01.xml"/>
+	<property name="com.jaspersoft.studio.property.dataset.dialog.DatasetDialog.sash.w1" value="251"/>
+	<property name="com.jaspersoft.studio.property.dataset.dialog.DatasetDialog.sash.w2" value="735"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="secondString" class="java.lang.String">
+		<fieldDescription><![CDATA[secondString]]></fieldDescription>
+	</field>
+	<field name="firstString" class="java.lang.String">
+		<fieldDescription><![CDATA[firstString]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="32" splitType="Stretch">
+			<textField>
+				<reportElement positionType="Float" stretchType="ElementGroupHeight" x="150" y="0" width="140" height="32" isPrintWhenDetailOverflows="true" uuid="f6eec303-affe-4804-bb6a-e5c07516a46f"/>
+				<textElement textAlignment="Right">
+					<font size="22"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{firstString}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" stretchType="ElementGroupHeight" x="290" y="0" width="170" height="32" uuid="c85ac561-cb69-400f-ac61-e27fb851a35a"/>
+				<textElement textAlignment="Left">
+					<font size="22"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{secondString}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band splitType="Stretch"/>
+	</summary>
+</jasperReport>
