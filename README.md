@@ -1,4 +1,4 @@
-This is a I promised this to myself. This time once I found my way out of the problem of how to generate a sample Jasper report through Java Beans, I am going to blog it so that I don’t forget it next time and struggle again.
+I promised this to myself. This time once I found my way out of the problem of how to generate a sample Jasper report through Java Beans, I am going to blog it so that I don’t forget it next time and struggle again.
 
 While how to go about the steps is enumerated below a more detailed screenshot tutorial can be found at https://stackoverflow.com/questions/40902602/jaspersoft-studio-how-to-use-collection-of-java-beans-in-data-adapter
 
